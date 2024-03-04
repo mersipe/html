@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 600px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.gallery-item:hover .caption {
+    opacity: 1;
+}
+
+header {
+    
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    padding: 40px;
+    
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+
+.gallery-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item1 {
+    width: 440px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-item1 img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.gallery-item1:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item1 .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.gallery-item1:hover .caption {
+    opacity: 1;
+}
